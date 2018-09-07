@@ -1082,7 +1082,7 @@ client.on('message', message => {
         if(!message.channel.guild) return;
 let args = message.content.split(' ').join(" ");
 if (message.content.startsWith('-legend')){
-if (message.author.id !== '396958215377780747') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '403641716797603853') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -1121,7 +1121,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``INFO Super Bot`` ')
+            .setTitle('``INFO ARMY SYSTEAM`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -1131,7 +1131,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | LEGEND_YT#4537 ')
+			      .setFooter('By | ̲X̲B̲O̲O̲M̲X̲#3600 ')
     })
 }
 });
@@ -2506,7 +2506,7 @@ client.on('message', message => {
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
         .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
-        .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
+        .setThumbnail(" https://discordapp.com/oauth2/authorize?client_id=468831893773746196&scope=bot&permissions=1")        
      message.channel.sendEmbed(embed);
        }
    });
@@ -2841,7 +2841,7 @@ message.channel.stopTyping()
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/TZ3dcyC**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/2jGqzm3**")
      
      
   message.channel.sendEmbed(embed);
@@ -2974,7 +2974,7 @@ Server owner: __${guild.owner}__**`)
 }); 
 			      
 const sWlc = {}
-const premium = ['396958215377780747', '', '', '']
+const premium = ['403641716797603853', '', '', '']
 client.on('message', message => {
 var prefix = "-";
 if(message.channel.type === "dm") return;
