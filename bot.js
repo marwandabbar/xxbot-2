@@ -136,7 +136,7 @@ client.on('message', message => {
   
   
    client.on("message", message => {
-    if (message.content === "-help--1") {
+    if (message.content === "-help-1") {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
@@ -454,7 +454,7 @@ client.on('message', message => {
  .setThumbnail(msg.author.avatarURL)
  .setTitle(`Welcome To ${msg.guild.name}`)
            .setFooter(`- Requested By: ${msg.author.tag}`,msg.author.avatarURL)
-  .setURL('https://discordapp.com/oauth2/authorize?client_id=468831893773746196&permissions=8&scope=bot')
+  .setURL('https://discordapp.com/oauth2/authorize?client_id=468831893773746196&scope=bot&permissions=1')
  .setDescription(`**اذا كنت تريد الاوامر العامة اظغط الريكشن** 🌏 \n**اذا كنت تريد الاوامر الادارية اظغط الريكشن**🔧 \n**اذا كنت تريد اوامر الالعاب**🎲 \n**اذا كنت تريد اوامر الاغاني **🎶\n              **وشكرا لمستخدمين البوت**`)  
  
  .setTimestamp()
@@ -2504,7 +2504,7 @@ client.on('message', message => {
             if(!message.channel.guild) return;
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
-        .setTitle(`:small_orange_diamond: اضغط هنا `)
+        .setTitle(`:small_orange_diamond: click here `)
         .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
         .setThumbnail(" https://discordapp.com/oauth2/authorize?client_id=468831893773746196&scope=bot&permissions=1")        
      message.channel.sendEmbed(embed);
@@ -2841,7 +2841,7 @@ message.channel.stopTyping()
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/2jGqzm3**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/Tk6QubN**")
      
      
   message.channel.sendEmbed(embed);
@@ -2952,12 +2952,12 @@ if(!message.channel.guild) return;
 
 			      
 client.on('guildCreate', guild => {
-  client.channels.get("468911065095208980").send(`**Woops new server ✅
+  client.channels.get("481224550655328256").send(`**Woops new server ✅
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__**`)
 });
 client.on("guildDelete", guild => {
- client.channels.get("468911065095208980").send(`**Rmoved From server :x:
+ client.channels.get("481224550655328256").send(`**Rmoved From server :x:
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__**`)
 });
@@ -3206,7 +3206,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
 
   client.on('message', message => { 
 	var prefix ="-";
-           if (message.content.startsWith(prefix + "id")) {
+           if (message.content.startsWith(prefix + "2id")) {
      var args = message.content.split(" ").slice(1);
      let user = message.mentions.users.first();
      var men = message.mentions.users.first();
