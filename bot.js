@@ -2351,7 +2351,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("396958215377780747").send(
+client.users.get("403641716797603853").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2687,7 +2687,7 @@ if (err) console.error(err);
     client.on('message', message => {
         let tit = message.content.split(" ").slice(1).join(" ");
         if(message.content.startsWith(prefix + "title")) {
-        if(!profile[message.author.id].tite) profile[message.author.id].tite = "Hey im using Super"
+        if(!profile[message.author.id].tite) profile[message.author.id].tite = "Hey im using ARMY"
         if(!tit) {
             message.channel.send("**Usage: <title <something>**");
         } else {
