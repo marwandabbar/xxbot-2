@@ -2505,7 +2505,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: click here `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/oauth2/authorize?client_id=468831893773746196&scope=bot&permissions=1`)
         .setThumbnail("https://discordapp.com/oauth2/authorize?client_id=468831893773746196&scope=bot&permissions=1")        
      message.channel.sendEmbed(embed);
        }
